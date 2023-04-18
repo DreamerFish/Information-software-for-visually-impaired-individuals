@@ -1,0 +1,69 @@
+page {
+  background-color: #F6F6F6;
+}
+.player {
+  height: 30%;
+}
+.player .icon {
+  font-size: 90rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  padding: 5vw;
+}
+page {
+  overflow: hidden;
+}
+.image {
+  height: 640rpx;
+  width: 480rpx;
+  border-radius: 24rpx;
+}
+.scroll {
+  width: 90vw;
+  height: 100vh;
+  padding: 2vw 5vw;
+}
+.scroll .page {
+  width: 100%;
+  height: 100vh;
+  border-radius: 40rpx;
+  box-shadow: 0 5px 5px 0 #d6d6d6;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80%;
+  color: white;
+  margin: 40rpx;
+  width: 75vw;
+  padding: 30rpx;
+  border-radius: 40rpx;
+}
+.info .title {
+  font-size: 42rpx;
+  align-self: center;
+  margin-bottom: 30rpx;
+}
+.info .date {
+  position: relative;
+  width: 100%;
+}
+.info .text {
+  /* 超出范围隐藏 */
+  overflow: hidden;
+  /* 文字超出用省略号 */
+  text-overflow: ellipsis;
+  /* 盒子模型 */
+  display: -webkit-box;
+  /* 显示的文本行数 */
+  -webkit-line-clamp: 15;
+  /* 子元素的垂直排列方式 */
+  -webkit-box-orient: vertical;
+}
+.translateText {
+  margin-top: 45rpx;
+}

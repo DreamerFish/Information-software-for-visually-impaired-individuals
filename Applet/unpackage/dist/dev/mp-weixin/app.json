@@ -1,0 +1,30 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/detail/detail",
+        "pages/mine/mine",
+        "pages/login/login",
+        "components/news/news",
+        "pages/search/search",
+        "pages/recognition/recognition",
+        "pages/list/list",
+        "pages/photoDetails/photoDetails",
+        "pages/feedback/feedback",
+        "pages/preference/preference",
+        "pages/history/history",
+        "pages/SinglePhoto/SinglePhoto",
+        "pages/listDetail/listDetail",
+        "pages/searchResult/searchResult"
+    ],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "requiredBackgroundModes": [
+        "audio"
+    ],
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
+}

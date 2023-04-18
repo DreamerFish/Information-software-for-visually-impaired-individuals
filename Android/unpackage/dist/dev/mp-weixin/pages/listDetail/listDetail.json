@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "z-swiper-item": "../../uni_modules/zebra-uniapp-swiper-master/components/z-swiper-item/z-swiper-item",
+    "z-swiper": "../../uni_modules/zebra-uniapp-swiper-master/components/z-swiper/z-swiper",
+    "voice": "../../components/voice/voice"
+  }
+}

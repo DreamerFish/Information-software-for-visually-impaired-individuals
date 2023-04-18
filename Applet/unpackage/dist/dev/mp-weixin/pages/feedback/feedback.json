@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-tag": "../../components/uni-tag/uni-tag",
+    "voice": "../../components/voice/voice"
+  }
+}

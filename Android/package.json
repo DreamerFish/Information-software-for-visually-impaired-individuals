@@ -1,0 +1,19 @@
+{
+    "id": "per-tabs",
+    "name": "per-tab",
+    "version": "2.0.3",
+    "description": " 解决NVUE没有合适Tab的困扰,本人特此研发一款具备常见Tab的控件, 同时可Swiper联动哦",
+    "keywords": [
+        "Tab",
+        "选项卡",
+        "Swiper",
+        "nvue",
+        "vue"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}

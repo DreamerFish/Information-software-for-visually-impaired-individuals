@@ -1,0 +1,283 @@
+page {
+  background-color: #F6F6F6;
+}
+.line {
+  width: 100%;
+  height: 2rpx;
+  background: #000;
+}
+.newtext {
+  font-size: 40rpx;
+  height: 2vh;
+  font-weight: 600;
+  padding: 5px;
+  margin-top: 4rpx;
+}
+template {
+  background-color: #B9B9B9;
+}
+.top_tab {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #101010;
+  padding: 2vw 5vw;
+  background-color: #F6F6F6;
+  position: relative;
+}
+.top_tab .bottom_line {
+  width: 50rpx;
+  height: 7rpx;
+  background-color: #165DFF;
+  position: absolute;
+  bottom: 5rpx;
+  transition: all 0.2s linear;
+}
+.top_tab .tabitem {
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.top_tab .tabitem .selected {
+  color: #165DFF;
+  transition: all 0.3s;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 5vw;
+  background-color: #F6F6F6;
+}
+.input {
+  width: 90vw;
+  height: 5vh!important;
+  border: 1rpx solid #B9B9B9;
+  border-radius: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40rpx;
+  color: #B9B9B9;
+  background-color: #ffffff;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #272e3b;
+}
+.list .item {
+  width: 43vw;
+  height: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 80rpx;
+  border-radius: 25rpx;
+  margin-top: 2vh;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  flex-direction: column;
+  background-color: #fff;
+}
+.list .item .item_image {
+  width: 43vw;
+  height: 43vw;
+  border-radius: 25rpx 25rpx 0 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+.list .item .item_image image {
+  height: 116%;
+  width: 100%;
+  border-radius: 25rpx 25rpx 0 0;
+}
+.list .item .text {
+  font-size: 40rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  width: 82%;
+}
+.mine {
+  padding: 5vw 5vw 0 5vw;
+}
+.mine .info {
+  display: flex;
+  align-items: center;
+}
+.mine .info .img {
+  width: 16vw;
+  height: 16vw;
+}
+.mine .info .img image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.mine .info .login {
+  font-size: 40rpx;
+  margin: 0 0 0 20rpx;
+}
+.mine .info .login .login_text1 {
+  color: #3d3e3f;
+  font-size: 36rpx;
+}
+.mine .minelist {
+  margin: 0 0 2vw 0;
+  width: 100%;
+  height: 15vw;
+  border-radius: 20rpx;
+  display: flex;
+  align-items: center;
+  background-color: #b6b6b6;
+}
+.mine .minelist .text {
+  font-size: 36rpx;
+  margin: 0 0 0 20%;
+  font-weight: bold;
+  color: #FFF;
+}
+.choice {
+  width: 100%;
+  height: 90%;
+  margin: 0 auto;
+  margin-top: 10rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.choice .shiping {
+  position: relative;
+  left: -170rpx;
+  background-color: #B6D7DC;
+  color: #2a4a4b;
+}
+.choice .yinshua {
+  background-color: #CEE2A5;
+  color: #4C613E;
+}
+.choice .shouxie {
+  background-color: #F0C2C2;
+  color: #755754;
+}
+.choice .wendang {
+  background-color: #B1D6F1;
+  color: #545E7E;
+}
+.choice .wangluo {
+  background-color: #D4D3FB;
+  color: #52507F;
+}
+.choice .wupin {
+  background-color: #E2BBD6;
+  color: #724B67;
+}
+.choice .biaoge {
+  background-color: #EEDAA8;
+  color: #784D49;
+}
+.choice view {
+  margin-top: 20rpx;
+  display: flex;
+  width: 285rpx;
+  height: 175rpx;
+  border-radius: 20rpx;
+  padding-top: 25rpx;
+  padding-left: 25rpx;
+  font-weight: bold;
+  font-family: SimHei;
+  overflow: hidden;
+  font-size: 50rpx;
+}
+.choice view image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  bottom: -75rpx;
+  right: -50rpx;
+}
+.choice view .shouxieImg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  bottom: 0px;
+  right: -40px;
+}
+.choice view .text {
+  width: 160rpx;
+  padding: 0;
+  margin-top: 0;
+}
+/* 我的 */
+.wd view {
+  background-color: #ffffff;
+}
+.userMsg {
+  display: flex;
+  /* border: 1px solid #000; */
+  background-color: #f6f6f6 !important;
+  border-radius: 10rpx;
+  width: 90%;
+  height: 150rpx;
+  margin: 0 auto;
+  margin-top: 15rpx;
+}
+.userImg {
+  margin-top: 10rpx;
+  width: 120rpx;
+  height: 120rpx;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+.userName {
+  line-height: 150rpx;
+  font-size: 40rpx;
+  margin-left: 40rpx;
+  background-color: #f6f6f6 !important;
+}
+.Collection {
+  display: flex;
+  /* border: 1px solid #000; */
+  border-radius: 20rpx;
+  width: 90%;
+  height: 150rpx;
+  margin: 0 auto;
+  margin-top: 30rpx;
+  line-height: 150rpx;
+  background-color: #fff;
+}
+.quit {
+  width: 90%;
+  height: 150rpx;
+  border-radius: 20rpx;
+  margin-top: 30rpx;
+  line-height: 150rpx;
+  color: #fff;
+  background-color: #4080FF;
+}
+.wdImg {
+  width: 60rpx;
+  height: auto;
+  /* border: 1px solid #000; */
+  margin-left: 50rpx;
+  margin-top: 8rpx;
+}
+.funcName {
+  line-height: 150rpx;
+  font-size: 40rpx;
+  margin-left: 40rpx;
+}
+.mine {
+  background-color: #F6F6F6;
+  height: 100vh;
+}
+.choice .textA .smalltext {
+  font-size: 25rpx;
+  width: 200rpx;
+}
+.choice .textA {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  padding: 0;
+}

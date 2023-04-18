@@ -1,0 +1,1 @@
+<view class="news" bindtap="{{a}}" data-url="pages/detail/detail"><view class="title"> 暂无新闻播放 </view><view class="iconfont icon-bofang"></view></view>

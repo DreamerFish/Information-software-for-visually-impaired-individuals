@@ -1,0 +1,1 @@
+.news{position:fixed;z-index:10;bottom:2vh;width:91vw;height:15vw;margin:0 0vw 0 3vw;border-radius:30rpx;background-color:#165dff;display:flex;align-items:center;color:#fff;font-size:50rpx;padding-left:25rpx}.news .img{flex:2}.news .title{flex:6;font-size:40rpx}.news .iconfont{flex:2;font-size:80rpx}

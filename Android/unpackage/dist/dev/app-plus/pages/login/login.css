@@ -1,0 +1,22 @@
+.login {
+  margin: 0 5vw;
+}
+.login .success {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40vw 0 0 0;
+}
+.login .success .item {
+  width: 80vw;
+  height: 16vw;
+  color: #fff;
+  background-color: #fecd09;
+  border-radius: 0.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin: 0 0 10vw 5vw;
+}

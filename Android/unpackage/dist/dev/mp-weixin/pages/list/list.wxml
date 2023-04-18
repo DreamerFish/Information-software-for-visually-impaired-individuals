@@ -1,0 +1,1 @@
+<view class="page"><view wx:for="{{a}}" wx:for-item="item" wx:key="d" class="news_list"><view class="news" bindtap="{{item.c}}"><view class="title">{{item.a}}</view><view class="content">{{item.b}}</view></view></view></view><voice u-i="1fec412c-0" bind:__l="__l"></voice>
